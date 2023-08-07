@@ -1,6 +1,5 @@
 // LIBRERIA ESTUDIO LENGUAJE C
 
-
 /*Indexación de matrices
 #include <stdio.h>
 
@@ -59,7 +58,7 @@ int main()
     return 0;
 }
 */
-/*Punteros*/
+/*Punteros
 #include <stdio.h>
 #include <string.h>
 
@@ -69,13 +68,36 @@ int main(void)
     //Procesa matrices y se usa para crear estructuras de datos complejas.
     //Si no se usan bien pueden crear muchos problemas
 
-    //Error tipico No 1, uso puntero no inicializado
+    //Error tipico No 1, 
+    //uso puntero no inicializado
 
         //char *ptr;
         //strcpy(ptr, "you may get into trouble soon");
         //puts(ptr);
+    
+    //desreferencia puntero no inicializado
 
+        //char *ptr;
+        //*ptr = 'C';
+        //printf("%c",*ptr);
+
+
+    //Error tipico No 2,
+    //exceder el tamaño de la matriz
+
+        //char str[10];
+        //strcpy(str,"Welcome to Troubleland!");
+        //printf("%s",str);
+
+    //Error tipico No 3,
+    //cadenas no terminadas
+
+        //char str[10];
+        //int i;
+        //strcat(str,"Bump!");
+        //printf("%s",str);
 
     return 0;
 }
+*/
 /*Continue...*/
