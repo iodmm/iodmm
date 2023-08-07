@@ -1,7 +1,7 @@
 // LIBRERIA ESTUDIO LENGUAJE C
 #include <stdio.h>
 
-int main()/*Indexación*/
+int main()/*Indexación de matrices*/
 {
     
     char word[10] = "dump";
