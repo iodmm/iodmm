@@ -1,7 +1,9 @@
 // LIBRERIA ESTUDIO LENGUAJE C
-#include <stdio.h>
+
 
 /*Indexación de matrices
+#include <stdio.h>
+
 int main()
 {
     char word[10] = "dump";
@@ -58,10 +60,20 @@ int main()
 }
 */
 /*Punteros*/
-int main()
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
 {
+    //Punteros herramienta flexible y eficiente
+    //Procesa matrices y se usa para crear estructuras de datos complejas.
+    //Si no se usan bien pueden crear muchos problemas
 
+    //Error tipico No 1, uso puntero no inicializado
 
+        //char *ptr;
+        //strcpy(ptr, "you may get into trouble soon");
+        //puts(ptr);
 
 
     return 0;
