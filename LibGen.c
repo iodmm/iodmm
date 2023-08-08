@@ -100,7 +100,9 @@ int main(void)
     return 0;
 }
 */
-/*Mi primer programa...*/
+/*Mi primer programa...
+
+
 
 //Programa sencillo, escribir en pantalla el mensaje.
 //La descripcion estructurada y semiformal de cada
@@ -117,5 +119,13 @@ int main(void)
 {
 	puts("It's me, your first program.");
     return 0;
-}
+}*/
+/*Función printf()
+#include <stdio.h>
+
+int main() {
+    //Analizado los errores de sintaxis habituales
+    printf("¡Hola, mundo!");
+    return 0;
+}*/
 /*Continue...*/
