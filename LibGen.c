@@ -125,7 +125,8 @@ int main(void)
 
 int main() {
     //Analizado los errores de sintaxis habituales
-    printf("¡\nHola,\n mundo!");
+    //Dandole formato, color y estilo al texto
+    printf("¡\n\033[31m\033[1m\033[4mHola\033[0m,\n mundo!");
     return 0;
 }
 /*Programa dibujo pizza
