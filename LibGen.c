@@ -128,4 +128,17 @@ int main() {
     printf("¡Hola, mundo!");
     return 0;
 }*/
+/*Programa dibujo pizza*/
+#include <stdio.h>
+//Era codigo comprobación, faltan los saltos de linea
+//Aparece todo en una sola linea, pero lo tienes que
+//ejecutar
+int main() {
+    printf(" // ºº--.._");
+    printf("||  (_)  _ º-._");
+    printf("||    _ (_)    º-..");
+    printf("||   (_)   __..-º");
+    printf(" \\__..--ºº");
+    return 0;
+}
 /*Continue...*/
