@@ -120,15 +120,15 @@ int main(void)
 	puts("It's me, your first program.");
     return 0;
 }*/
-/*Función printf()
+/*Función printf()*/
 #include <stdio.h>
 
 int main() {
     //Analizado los errores de sintaxis habituales
-    printf("¡Hola, mundo!");
+    printf("¡\nHola,\n mundo!");
     return 0;
-}*/
-/*Programa dibujo pizza*/
+}
+/*Programa dibujo pizza
 #include <stdio.h>
 //Era codigo comprobación, faltan los saltos de linea
 //Aparece todo en una sola linea, pero lo tienes que
@@ -140,5 +140,5 @@ int main() {
     printf("||   (_)   __..-º");
     printf(" \\__..--ºº");
     return 0;
-}
+}*/
 /*Continue...*/
