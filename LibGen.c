@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 int main()
-{
+{̣
     char word[10] = "dump";
 
     word[1] = 'a';
@@ -48,12 +48,12 @@ int main()
     char *p;
     char c;
 
-    //Configuramos p que apunte a la segunda posicion 
+    //Configuramos p que apunte a la segunda posicion
 
     //La forma recomendada es:
 
     p = string + 1;
-    
+
 
     return 0;
 }
@@ -68,13 +68,13 @@ int main(void)
     //Procesa matrices y se usa para crear estructuras de datos complejas.
     //Si no se usan bien pueden crear muchos problemas
 
-    //Error tipico No 1, 
+    //Error tipico No 1,
     //uso puntero no inicializado
 
         //char *ptr;
         //strcpy(ptr, "you may get into trouble soon");
         //puts(ptr);
-    
+
     //desreferencia puntero no inicializado
 
         //char *ptr;
@@ -100,4 +100,22 @@ int main(void)
     return 0;
 }
 */
+/*Mi primer programa...*/
+
+//Programa sencillo, escribir en pantalla el mensaje.
+//La descripcion estructurada y semiformal de cada
+//paso se llama: algoritmo
+
+//Pasos a realizar:
+//1 - Empezar el programa
+//2 - Escribir el texto en la pantalla
+//3 - Detener el programa
+
+#include <stdio.h>
+
+int main(void)
+{
+	puts("It's me, your first program.");
+    return 0;
+}
 /*Continue...*/
