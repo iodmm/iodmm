@@ -49,11 +49,22 @@ int main()
 int main()
 {
     //1 Crear la matriz bidimensional para el tablero de ajedres, 8 filas y 8 columnas.
-
+    //2 Colocar todas las piezas en el tablero.
+    //3 Muestre por pantalla el contenido del tablero.
 
     //DECLARACIÓN DE VARIABLES
+    //Declaramos la matriz bidimensional como datos int.
+    int chessboard[8][8];
+    //Declaramos las variables para las piezas.
+    int torre   = 'R';
+    int caballo = 'N';
+    int alfil   = 'B';
+    int reina   = 'Q';
+    int rey     = 'K';
+    int peon    = 'P';
 
-    
+    printf("%c %c %c %c %c %c \n", torre, caballo, alfil, reina, rey, peon); 
+
 
 
     return 0;
